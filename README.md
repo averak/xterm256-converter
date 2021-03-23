@@ -3,7 +3,7 @@
 [![PyPi](https://badge.fury.io/py/xterm256-converter.svg)](https://pypi.python.org/pypi/xterm256-converter/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-This util can convert hex color code to xterm 256 color.
+This util can convert hex color code to nearest xterm 256 color.
 
 ## Requirement
 
