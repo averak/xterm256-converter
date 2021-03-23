@@ -17,5 +17,10 @@ setup(
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.8",
-    ]
+    ],
+    entry_points={
+        'console_scripts': [
+            'xterm256-converter=xterm256_converter.core:main',
+        ]
+    },
 )
