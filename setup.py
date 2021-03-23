@@ -7,11 +7,12 @@ except IOError:
 
 setup(
     name="xterm256-converter",
-    version="0.1.0",
+    version="0.2.0",
     description="This util can convert hex color code to nearest xterm 256 color.",
     license="MIT",
     author="averak",
     packages=find_packages(),
+    package_data={'xterm256_converter': ['*.csv']},
     install_requires=[],
     long_description=long_description,
     classifiers=[
